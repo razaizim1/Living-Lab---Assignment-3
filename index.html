@@ -236,7 +236,7 @@
         <!-- End Category Section -->
 
         <!-- Start Products Section -->
-        <section class="bg-color-secondary lg:py-28 py-12">
+        <section class="lg:bg-color-secondary lg:py-28 py-0">
             <div class="md:container mx-auto px-3 lg:px-0">
                 <div class="section-title">
                     <h2 class="font-title-font text-2xl lg:text-4xl pb-10">Trending Pet Products</h2>
@@ -395,32 +395,36 @@
 
 
         <!-- Start FAQ Section -->
-        <section>
+        <section class="md:container mx-auto flex lg:flex-row flex-col items-center justify-between pt-20 px-3 lg:px-0">
             <div class="faq-img">
-                <img src="" alt="">
+                <img src="images/faq.jpg" alt="Cute Cat">
             </div>
 
-
-
-            <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" checked="checked" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                <div class="collapse-content">
-                    <p>hello</p>
+            <div class="faq-contents flex-1 pt-10 lg:pt-0">
+                <div class="section-title">
+                    <h2 class="font-title-font text-2xl lg:text-4xl pb-10">Frequently Asked Questions (FAQ)</h2>
                 </div>
-            </div>
-            <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                <div class="collapse-content">
-                    <p>hello</p>
+
+                <div class="collapse collapse-plus bg-color-secondary mb-4">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium bg-color-secondary">What types of products do you offer?</div>
+                    <div class="collapse-content">
+                        <p>We offer a wide range of pet products, including treats, toys, grooming essentials, bedding, and more. Everything is carefully selected to ensure the best quality for your furry friends.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="collapse collapse-plus bg-base-200">
-                <input type="radio" name="my-accordion-3" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
-                <div class="collapse-content">
-                    <p>hello</p>
+                <div class="collapse collapse-plus bg-color-secondary mb-4">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">Do you carry products for all types of pets?</div>
+                    <div class="collapse-content">
+                        <p>Yes! We have products for dogs, cats, birds, rabbits, and other small pets. Browse our collections to find the perfect items for your pet.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-plus bg-color-secondary">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">How can I place an order?</div>
+                    <div class="collapse-content">
+                        <p>Simply browse our website, add your favorite products to the cart, and proceed to checkout. We offer secure payment options for a hassle-free shopping experience.</p>
+                    </div>
                 </div>
             </div>
         </section>
